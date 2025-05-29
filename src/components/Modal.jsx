@@ -177,7 +177,7 @@ useEffect(() => {
                 >
                   <img
                     className="w-5"
-                    src="/search.svg"
+                    src="./search.svg"
                     alt="search"
                     aria-hidden="true"
                   />
