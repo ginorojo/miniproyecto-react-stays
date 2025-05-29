@@ -7,7 +7,7 @@ export function useStays() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios.get('https://ginorojo.github.io/miniproyecto-react-stays/data/stays.json')
+    axios.get('stays.json')
       .then(response => {
         setStays(response.data);
         setTimeout(() => {
